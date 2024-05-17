@@ -1,0 +1,1787 @@
+2024-05-17T02:15:11+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5.3; https://prjctl3x.com',
+  'REQUEST_URI' => '/wp-cron.php?doing_wp_cron=1715912111.4110269546508789062500',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => true,
+  'WP_CLI' => false,
+)
+2024-05-17T02:15:11+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/wcpay/woopay/compatibility?test_mode=0
+2024-05-17T02:15:11+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+)
+2024-05-17T02:15:12+00:00 INFO RESPONSE: array (
+  'incompatible_extensions' => 
+  array (
+    0 => 'class-wcdonation',
+    1 => 'woocommerce-table-rate-shipping',
+    2 => 'woocommerce-memberships-for-teams',
+    3 => 'woocommerce-checkout-add-ons',
+    4 => 'woocommerce-checkout-field-editor',
+    5 => 'woocommerce-eu-vat-number',
+    6 => 'woocommerce-order-delivery',
+    7 => 'woocommerce-pdf-product-vouchers',
+    8 => 'woocommerce-shipping-local-pickup-plus',
+    9 => 'woocommerce-shipping-multiple-addresses',
+    10 => 'woocommerce-smart-coupons',
+    11 => 'woocommerce-subscriptions-gifting',
+    12 => 'advanced-product-fields-for-woocommerce',
+  ),
+  'adapted_extensions' => 
+  array (
+    0 => 'woocommerce-points-and-rewards',
+    1 => 'woocommerce-gift-cards',
+  ),
+  'available_countries' => 
+  array (
+    0 => 'US',
+  ),
+)
+2024-05-17T02:30:15+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T02:30:15+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/disputes?test_mode=0&pagesize=50&search%5B0%5D=warning_needs_response&search%5B1%5D=needs_response
+2024-05-17T02:30:15+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+)
+2024-05-17T02:30:15+00:00 INFO RESPONSE: array (
+  'data' => 
+  array (
+  ),
+)
+2024-05-17T03:10:09+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T03:10:09+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=0&currency_from=usd
+2024-05-17T03:10:09+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+)
+2024-05-17T03:10:09+00:00 INFO RESPONSE: array (
+  'AED' => 3.6730000000000000426325641456060111522674560546875,
+  'AFN' => 72.057783999999998059138306416571140289306640625,
+  'ALL' => 92.318026000000003250534064136445522308349609375,
+  'AMD' => 387.5024349999999913052306510508060455322265625,
+  'ANG' => 1.8023279999999999301252273653517477214336395263671875,
+  'AOA' => 837.5,
+  'ARS' => 886.2418999999999869032762944698333740234375,
+  'AUD' => 1.49647400000000008191136657842434942722320556640625,
+  'AWG' => 1.8024999999999999911182158029987476766109466552734375,
+  'AZN' => 1.6999999999999999555910790149937383830547332763671875,
+  'BAM' => 1.7988500000000000600408611717284657061100006103515625,
+  'BBD' => 2,
+  'BDT' => 117.0936090000000007194103091023862361907958984375,
+  'BGN' => 1.79966500000000007020162229309789836406707763671875,
+  'BHD' => 0.37690400000000001679012484601116739213466644287109375,
+  'BIF' => 2868.84047199999986332841217517852783203125,
+  'BMD' => 1,
+  'BND' => 1.3443650000000000321875859299325384199619293212890625,
+  'BOB' => 6.9102850000000000108002495835535228252410888671875,
+  'BRL' => 5.1302000000000003154809746774844825267791748046875,
+  'BSD' => 1,
+  'BTC' => 1.5000000000000000380012861456169304119612206704914569854736328125E-5,
+  'BTN' => 83.4996029999999933579601929523050785064697265625,
+  'BWP' => 13.58488799999999940837369649671018123626708984375,
+  'BYN' => 3.27270400000000005746869646827690303325653076171875,
+  'BZD' => 2.0157650000000000289901436190120875835418701171875,
+  'CAD' => 1.36149100000000000676436684443615376949310302734375,
+  'CDF' => 2800.7476999999998952262103557586669921875,
+  'CHF' => 0.9060960000000000125197630040929652750492095947265625,
+  'CLF' => 0.032564000000000002665867526729925884865224361419677734375,
+  'CLP' => 900.9009009999999761930666863918304443359375,
+  'CNH' => 7.2234210000000000917452780413441359996795654296875,
+  'CNY' => 7.217999999999999971578290569595992565155029296875,
+  'COP' => 3823.10945099999980811844579875469207763671875,
+  'CRC' => 511.86295899999998937346390448510646820068359375,
+  'CUC' => 1,
+  'CUP' => 25.75,
+  'CVE' => 101.5818359999999955789462546817958354949951171875,
+  'CZK' => 22.73519900000000149020706885494291782379150390625,
+  'DJF' => 177.762376999999986537659424357116222381591796875,
+  'DKK' => 6.8650000000000002131628207280300557613372802734375,
+  'DOP' => 58.5432229999999975689206621609628200531005859375,
+  'DZD' => 134.614426000000008798451744951307773590087890625,
+  'EGP' => 46.89912199999999842248143977485597133636474609375,
+  'ERN' => 15,
+  'ETB' => 57.3508690000000029840521165169775485992431640625,
+  'EUR' => 0.9201390000000000402025079893064685165882110595703125,
+  'FJD' => 2.22975000000000012079226507921703159809112548828125,
+  'FKP' => 0.789177000000000017365664461976848542690277099609375,
+  'GBP' => 0.789177000000000017365664461976848542690277099609375,
+  'GEL' => 2.720000000000000195399252334027551114559173583984375,
+  'GGP' => 0.789177000000000017365664461976848542690277099609375,
+  'GHS' => 14.2882750000000005030642569181509315967559814453125,
+  'GIP' => 0.789177000000000017365664461976848542690277099609375,
+  'GMD' => 67.775000000000005684341886080801486968994140625,
+  'GNF' => 8596.71687000000019907020032405853271484375,
+  'GTQ' => 7.768589999999999662350091966800391674041748046875,
+  'GYD' => 209.33206100000001015359885059297084808349609375,
+  'HKD' => 7.8013609999999999899955582804977893829345703125,
+  'HNL' => 24.76329700000000144655132316984236240386962890625,
+  'HRK' => 6.93313899999999971868192005786113440990447998046875,
+  'HTG' => 132.652074999999996407495927996933460235595703125,
+  'HUF' => 356.09454299999998738712747581303119659423828125,
+  'IDR' => 15938.88244800000029499642550945281982421875,
+  'ILS' => 3.695320000000000160156332640326581895351409912109375,
+  'IMP' => 0.789177000000000017365664461976848542690277099609375,
+  'INR' => 83.4752629999999982146619004197418689727783203125,
+  'IQD' => 1310.033666000000039275619201362133026123046875,
+  'IRR' => 42075,
+  'ISK' => 138.31000000000000227373675443232059478759765625,
+  'JEP' => 0.789177000000000017365664461976848542690277099609375,
+  'JMD' => 156.27410800000001245280145667493343353271484375,
+  'JOD' => 0.70889999999999997459809719657641835510730743408203125,
+  'JPY' => 155.39699999999999135980033315718173980712890625,
+  'KES' => 130.747170000000011214069672860205173492431640625,
+  'KGS' => 88.262100000000003774403012357652187347412109375,
+  'KHR' => 4077.5956070000002000597305595874786376953125,
+  'KMF' => 452.7251800000000230284058488905429840087890625,
+  'KPW' => 900,
+  'KRW' => 1347.336935000000039508449845016002655029296875,
+  'KWD' => 0.30717499999999997584154698415659368038177490234375,
+  'KYD' => 0.8334099999999999841548969925497658550739288330078125,
+  'KZT' => 439.1896610000000009677023626863956451416015625,
+  'LAK' => 21339.41371900000012828968465328216552734375,
+  'LBP' => 89556.332508000006782822310924530029296875,
+  'LKR' => 300.7619789999999966312316246330738067626953125,
+  'LRD' => 193.499966999999998051862348802387714385986328125,
+  'LSL' => 18.250260999999998290377334342338144779205322265625,
+  'LYD' => 4.8480109999999996261976775713264942169189453125,
+  'MAD' => 9.9579210000000006886011760798282921314239501953125,
+  'MDL' => 17.730591000000000434511093772016465663909912109375,
+  'MGA' => 4428.64276299999983166344463825225830078125,
+  'MKD' => 56.64344100000000281625034403987228870391845703125,
+  'MMK' => 2100.0278729999999995925463736057281494140625,
+  'MNT' => 3450,
+  'MOP' => 8.0394950000000005019273885409347712993621826171875,
+  'MUR' => 45.94000199999999978217601892538368701934814453125,
+  'MVR' => 15.449999999999999289457264239899814128875732421875,
+  'MWK' => 1733.341693000000077518052421510219573974609375,
+  'MXN' => 16.6800640000000015561454347334802150726318359375,
+  'MYR' => 4.68550000000000022026824808563105762004852294921875,
+  'MZN' => 63.899990999999999985448084771633148193359375,
+  'NAD' => 18.250009999999999621422830387018620967864990234375,
+  'NGN' => 1513.97600000000011277734301984310150146484375,
+  'NIO' => 36.7899900000000030786395655013620853424072265625,
+  'NOK' => 10.6977139999999995012558429152704775333404541015625,
+  'NPR' => 133.599465000000009240466170012950897216796875,
+  'NZD' => 1.6328709999999999613606860293657518923282623291015625,
+  'OMR' => 0.38489600000000001589484099895344115793704986572265625,
+  'PAB' => 1,
+  'PEN' => 3.717805999999999944094497550395317375659942626953125,
+  'PGK' => 3.8820420000000002147544364561326801776885986328125,
+  'PHP' => 57.48249799999999964938979246653616428375244140625,
+  'PKR' => 278.59301799999997228951542638242244720458984375,
+  'PLN' => 3.919833000000000122753363029914908111095428466796875,
+  'PYG' => 7504.1589389999999184510670602321624755859375,
+  'QAR' => 3.642637000000000124799726108903996646404266357421875,
+  'RON' => 4.57819999999999982520648700301535427570343017578125,
+  'RSD' => 107.7890000000000014779288903810083866119384765625,
+  'RUB' => 90.9090910000000036461642594076693058013916015625,
+  'RWF' => 1294.530933000000004540197551250457763671875,
+  'SAR' => 3.75042600000000003745981302927248179912567138671875,
+  'SBD' => 8.511525999999999925194060779176652431488037109375,
+  'SCR' => 13.7681629999999994851123119588010013103485107421875,
+  'SDG' => 601,
+  'SEK' => 10.7113800000000001233502189279533922672271728515625,
+  'SGD' => 1.3457790000000000585345105719170533120632171630859375,
+  'SHP' => 0.789177000000000017365664461976848542690277099609375,
+  'SLL' => 20969.5,
+  'SOS' => 571.3345269999999800347723066806793212890625,
+  'SRD' => 32.1700000000000017053025658242404460906982421875,
+  'SSP' => 130.259999999999990905052982270717620849609375,
+  'STD' => 22281.79999999999927240423858165740966796875,
+  'SVC' => 8.7495980000000006526761353597976267337799072265625,
+  'SYP' => 2512.53000000000020008883439004421234130859375,
+  'SZL' => 18.29147400000000089903551270253956317901611328125,
+  'THB' => 36.2205000000000012505552149377763271331787109375,
+  'TJS' => 10.8550249999999994798827174236066639423370361328125,
+  'TMT' => 3.5099999999999997868371792719699442386627197265625,
+  'TND' => 3.103000000000000202504679691628552973270416259765625,
+  'TOP' => 2.35868099999999980553866407717578113079071044921875,
+  'TRY' => 32.26848700000000036425262806005775928497314453125,
+  'TTD' => 6.7908080000000001774651536834426224231719970703125,
+  'TWD' => 32.173102000000000089130480773746967315673828125,
+  'TZS' => 2597.5025279999999838764779269695281982421875,
+  'UAH' => 39.5815640000000001919033820740878582000732421875,
+  'UGX' => 3760.1189599999997881241142749786376953125,
+  'USD' => 1,
+  'UYU' => 38.657162999999997055056155659258365631103515625,
+  'UZS' => 12712.75677899999936926178634166717529296875,
+  'VND' => 25442.0594239999991259537637233734130859375,
+  'VUV' => 118.7219999999999942019712761975824832916259765625,
+  'WST' => 2.79999999999999982236431605997495353221893310546875,
+  'XAF' => 603.5717710000000124637153930962085723876953125,
+  'XAG' => 0.03368999999999999772626324556767940521240234375,
+  'XAU' => 0.00042000000000000001741662369880714322789572179317474365234375,
+  'XCD' => 2.702550000000000007815970093361102044582366943359375,
+  'XDR' => 0.757171000000000038454572859336622059345245361328125,
+  'XOF' => 603.5717710000000124637153930962085723876953125,
+  'XPD' => 0.00100799999999999999843180997771696638665162026882171630859375,
+  'XPF' => 109.801817999999997255144990049302577972412109375,
+  'XPT' => 0.000942000000000000020476675910430230942438356578350067138671875,
+  'YER' => 249.850065999999998211933416314423084259033203125,
+  'ZAR' => 18.1921329999999983328962116502225399017333984375,
+  'ZMW' => 25.275473999999999108467818587087094783782958984375,
+  'ZWL' => 322,
+)
+2024-05-17T08:40:55+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => 'https://prjctl3x.com/',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:40:55+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2024-05-17T08:40:55+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+)
+2024-05-17T08:40:58+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1PF5TuFyhzAxuNZN',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'created' => '2024-05-11 02:16:17',
+  'has_pending_requirements' => false,
+  'has_future_requirements' => false,
+  'has_overdue_requirements' => false,
+  'details_submitted' => true,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'affirm_payments' => 'active',
+    'afterpay_clearpay_payments' => 'active',
+    'card_payments' => 'active',
+    'klarna_payments' => 'active',
+    'link_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'amazon_pay_payments' => 'unrequested',
+    'bancontact_payments' => 'unrequested',
+    'bank_transfer_payments' => 'unrequested',
+    'cartes_bancaires_payments' => 'unrequested',
+    'cashapp_payments' => 'unrequested',
+    'eps_payments' => 'unrequested',
+    'giropay_payments' => 'unrequested',
+    'ideal_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'p24_payments' => 'unrequested',
+    'sepa_debit_payments' => 'unrequested',
+    'sofort_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'affirm_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+    ),
+    'amazon_pay_payments' => 
+    array (
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'bank_transfer_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'cartes_bancaires_payments' => 
+    array (
+    ),
+    'cashapp_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'klarna_payments' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits' => 
+  array (
+    'status' => 'enabled',
+    'restrictions' => 'deposits_unrestricted',
+    'interval' => 'daily',
+    'weekly_anchor' => '',
+    'monthly_anchor' => NULL,
+    'delay_days' => 2,
+    'completed_waiting_period' => false,
+    'minimum_manual_deposit_amounts' => 
+    array (
+      'aud' => 500,
+      'bgn' => 100,
+      'cad' => 500,
+      'chf' => 500,
+      'czk' => 3000,
+      'dkk' => 5000,
+      'eur' => 500,
+      'gbp' => 500,
+      'hkd' => 5000,
+      'huf' => 36000,
+      'nok' => 5000,
+      'nzd' => 500,
+      'jpy' => 50,
+      'sek' => 5000,
+      'sgd' => 500,
+      'usd' => 500,
+      'ron' => 500,
+      'pln' => 500,
+      'aed' => 200,
+    ),
+    'minimum_scheduled_deposit_amounts' => 
+    array (
+      'aed' => 200,
+      'aud' => 0,
+      'bgn' => 100,
+      'cad' => 0,
+      'chf' => 500,
+      'czk' => 3000,
+      'dkk' => 2000,
+      'eur' => 100,
+      'gbp' => 100,
+      'hkd' => 0,
+      'huf' => 36000,
+      'jpy' => 1,
+      'nok' => 2000,
+      'nzd' => 0,
+      'pln' => 500,
+      'ron' => 500,
+      'sek' => 2000,
+      'sgd' => 100,
+      'usd' => 0,
+    ),
+  ),
+  'lifetime_total_payment_volume' => 0,
+  'requirements' => 
+  array (
+    'errors' => 
+    array (
+    ),
+  ),
+  'statement_descriptor' => 'PRJCT L3X',
+  'statement_descriptor_kanji' => '',
+  'statement_descriptor_kana' => '',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2024-05-11 02:16:17',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.0290000000000000014710455076283324160613119602203369140625,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.0290000000000000014710455076283324160613119602203369140625,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01499999999999999944488848768742172978818416595458984375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.0269999999999999996946886682280819513835012912750244140625,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'link' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.0290000000000000014710455076283324160613119602203369140625,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.01400000000000000029143354396410359186120331287384033203125,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01499999999999999944488848768742172978818416595458984375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.0179999999999999986399767948341832379810512065887451171875,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01499999999999999944488848768742172978818416595458984375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01499999999999999944488848768742172978818416595458984375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.01400000000000000029143354396410359186120331287384033203125,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01499999999999999944488848768742172978818416595458984375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.021999999999999998723243521681069978512823581695556640625,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01499999999999999944488848768742172978818416595458984375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01000000000000000020816681711721685132943093776702880859375,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'affirm' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.059999999999999997779553950749686919152736663818359375,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'afterpay_clearpay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.059999999999999997779553950749686919152736663818359375,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'klarna' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.059900000000000001854072451124011422507464885711669921875,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'htg',
+      52 => 'huf',
+      53 => 'idr',
+      54 => 'ils',
+      55 => 'inr',
+      56 => 'isk',
+      57 => 'jmd',
+      58 => 'jpy',
+      59 => 'kes',
+      60 => 'kgs',
+      61 => 'khr',
+      62 => 'kmf',
+      63 => 'krw',
+      64 => 'kyd',
+      65 => 'kzt',
+      66 => 'lak',
+      67 => 'lbp',
+      68 => 'lkr',
+      69 => 'lrd',
+      70 => 'lsl',
+      71 => 'mad',
+      72 => 'mdl',
+      73 => 'mga',
+      74 => 'mkd',
+      75 => 'mmk',
+      76 => 'mnt',
+      77 => 'mop',
+      78 => 'mur',
+      79 => 'mvr',
+      80 => 'mwk',
+      81 => 'mxn',
+      82 => 'myr',
+      83 => 'mzn',
+      84 => 'nad',
+      85 => 'ngn',
+      86 => 'nio',
+      87 => 'nok',
+      88 => 'npr',
+      89 => 'nzd',
+      90 => 'pab',
+      91 => 'pen',
+      92 => 'pgk',
+      93 => 'php',
+      94 => 'pkr',
+      95 => 'pln',
+      96 => 'pyg',
+      97 => 'qar',
+      98 => 'ron',
+      99 => 'rsd',
+      100 => 'rub',
+      101 => 'rwf',
+      102 => 'sar',
+      103 => 'sbd',
+      104 => 'scr',
+      105 => 'sek',
+      106 => 'sgd',
+      107 => 'shp',
+      108 => 'sle',
+      109 => 'sos',
+      110 => 'srd',
+      111 => 'std',
+      112 => 'szl',
+      113 => 'thb',
+      114 => 'tjs',
+      115 => 'top',
+      116 => 'try',
+      117 => 'ttd',
+      118 => 'twd',
+      119 => 'tzs',
+      120 => 'uah',
+      121 => 'ugx',
+      122 => 'uyu',
+      123 => 'uzs',
+      124 => 'vnd',
+      125 => 'vuv',
+      126 => 'wst',
+      127 => 'xaf',
+      128 => 'xcd',
+      129 => 'xof',
+      130 => 'xpf',
+      131 => 'yer',
+      132 => 'zar',
+      133 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'has_card_readers_available' => false,
+  'platform_checkout_eligible' => true,
+  'platform_direct_checkout_eligible' => false,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://prjctl3x.com/',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+  'locale' => 'en_US',
+  'has_more_failed_events' => false,
+  'has_submitted_vat_data' => false,
+  'is_documents_enabled' => false,
+  'card_testing_protection_eligible' => false,
+  'progressive_onboarding' => 
+  array (
+    'is_enabled' => false,
+    'is_complete' => false,
+    'tpv' => NULL,
+    'first_transaction_date' => NULL,
+    'kyc_deadline_date' => NULL,
+  ),
+  'fraud_mitigation_settings' => 
+  array (
+    'avs_check_enabled' => false,
+    'cvc_check_enabled' => true,
+  ),
+  'is_deferred_intent_creation_upe_enabled' => true,
+  'pre_check_save_my_info' => false,
+)
+2024-05-17T08:40:58+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => 'https://prjctl3x.com/',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:40:58+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:40:58+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => 'b648737e-8910-4498-a5e6-c14a9d934b72',
+)
+2024-05-17T08:40:58+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'lexy_project-main',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      10 => 'woocommerce-payments/woocommerce-payments.php',
+      11 => 'woocommerce-services/woocommerce-services.php',
+      12 => 'woocommerce/woocommerce.php',
+      13 => 'wordpress-seo/wp-seo.php',
+      14 => 'wp-email-capture/wp-email-capture.php',
+      15 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:40:59+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:46:34+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => 'https://prjctl3x.com/cart/',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/checkout/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:46:34+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/payment_methods?test_mode=0&customer=cus_Q6bxlqdIAq8Fin&type=card&limit=100
+2024-05-17T08:46:34+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+)
+2024-05-17T08:46:35+00:00 INFO RESPONSE: array (
+  'object' => 'list',
+  'data' => 
+  array (
+  ),
+  'has_more' => false,
+  'url' => '/v1/payment_methods',
+)
+2024-05-17T08:49:30+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5.3; https://prjctl3x.com',
+  'REQUEST_URI' => '/wp-json/jetpack/v4/sync/spawn-sync?time=1715935769&request_lock_id=1715935769.5493',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:49:30+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:49:30+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => 'e13e8ee7-3777-48f0-ae32-d61f7cb38d62',
+)
+2024-05-17T08:49:30+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'storefront',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:49:30+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:49:30+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5.3; https://prjctl3x.com',
+  'REQUEST_URI' => '/wp-admin/admin-ajax.php?action=wp_1_wc_regenerate_images&nonce=bfe3a15ac6',
+  'DOING_AJAX' => true,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:49:30+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:49:30+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => '24eb4a54-4d0a-415e-9efb-484b2a28e53d',
+)
+2024-05-17T08:49:30+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'storefront',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:49:30+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:50:15+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5.3; https://prjctl3x.com',
+  'REQUEST_URI' => '/wp-admin/admin-ajax.php?action=wp_1_wc_regenerate_images&nonce=2c09b2766c',
+  'DOING_AJAX' => true,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:50:15+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:50:15+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => '01cffa6f-c16c-472e-929d-eb35e726af35',
+)
+2024-05-17T08:50:15+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'lexy_project-main',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:50:15+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5.3; https://prjctl3x.com',
+  'REQUEST_URI' => '/wp-json/jetpack/v4/sync/spawn-sync?time=1715935814&request_lock_id=1715935814.9566',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:50:15+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:50:15+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => '1914eca6-64f1-414b-8996-99e1cb74e03e',
+)
+2024-05-17T08:50:15+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'lexy_project-main',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:50:15+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:50:15+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => 'https://prjctl3x.com/wp-admin/themes.php',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/themes.php?activated=true',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:50:15+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:50:15+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => '0c93e4b8-a515-46be-a09b-aa23555fdcb2',
+)
+2024-05-17T08:50:15+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'lexy_project-main',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:50:15+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:50:15+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:50:15+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5.3; https://prjctl3x.com',
+  'REQUEST_URI' => '/wp-admin/admin-ajax.php?action=wp_1_wc_regenerate_images&nonce=2c09b2766c',
+  'DOING_AJAX' => true,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:50:15+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:50:15+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => 'ef01544e-2f91-4c0a-ba47-1a6f4acd7932',
+)
+2024-05-17T08:50:15+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'lexy_project-main',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:50:16+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:57:37+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5.3; https://prjctl3x.com',
+  'REQUEST_URI' => '/wp-json/jetpack/v4/sync/spawn-sync?time=1715936256&request_lock_id=1715936256.7649',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:57:37+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:57:37+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => 'e5a52d6f-9c8f-42b6-9aa6-0c867e15a772',
+)
+2024-05-17T08:57:37+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'storefront',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:57:37+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:57:37+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5.3; https://prjctl3x.com',
+  'REQUEST_URI' => '/wp-admin/admin-ajax.php?action=wp_1_wc_regenerate_images&nonce=bfe3a15ac6',
+  'DOING_AJAX' => true,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:57:37+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:57:37+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => 'a41f898a-e4be-4c8a-a672-875e5c888fee',
+)
+2024-05-17T08:57:37+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'storefront',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:57:38+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T08:57:38+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => 'https://prjctl3x.com/wp-admin/themes.php',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/themes.php?activated=true',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T08:57:38+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-05-17T08:57:38+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+  'Idempotency-Key' => '1d96bf54-129d-458a-9c3f-a7a9e19fb119',
+)
+2024-05-17T08:57:38+00:00 INFO BODY: array (
+  'test_mode' => false,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.6.0',
+    'woocommerce_version' => '8.9.0',
+    'woocommerce_permalinks' => 
+    array (
+      'product_base' => 'product',
+      'category_base' => 'product-category',
+      'tag_base' => 'product-tag',
+      'attribute_base' => '',
+      'use_verbose_page_rules' => false,
+    ),
+    'woocommerce_shop' => 'https://prjctl3x.com/shop/',
+    'woocommerce_cart' => 'https://prjctl3x.com/cart/',
+    'woocommerce_checkout' => 'https://prjctl3x.com/checkout/',
+    'blog_theme' => 'storefront',
+    'active_plugins' => 
+    array (
+      0 => 'advanced-custom-fields/acf.php',
+      1 => 'bluehost-wordpress-plugin/bluehost-wordpress-plugin.php',
+      2 => 'contact-form-7/wp-contact-form-7.php',
+      3 => 'mailchimp-for-woocommerce/mailchimp-woocommerce.php',
+      4 => 'mailchimp-for-wp/mailchimp-for-wp.php',
+      5 => 'navz-photo-gallery/navz-photo-gallery.php',
+      6 => 'safe-svg/safe-svg.php',
+      7 => 'woo-ajax-add-to-cart/woo-ajax-add-to-cart.php',
+      8 => 'woo-update-manager/woo-update-manager.php',
+      9 => 'woo-variation-swatches/woo-variation-swatches.php',
+      11 => 'woocommerce-payments/woocommerce-payments.php',
+      12 => 'woocommerce-services/woocommerce-services.php',
+      13 => 'woocommerce/woocommerce.php',
+      14 => 'wordpress-seo/wp-seo.php',
+      15 => 'wp-email-capture/wp-email-capture.php',
+      16 => 'yith-woocommerce-wishlist/init.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 14,
+      'page' => 16,
+      'attachment' => 0,
+      'product' => 20,
+    ),
+  ),
+)
+2024-05-17T08:57:38+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-05-17T09:01:41+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'wnetzgmy',
+  'HTTP_REFERER' => 'https://prjctl3x.com/wp-admin/themes.php?activated=true',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/admin.php?page=wc-status',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T09:01:41+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/fraud_ruleset?test_mode=0
+2024-05-17T09:01:41+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+)
+2024-05-17T09:01:41+00:00 INFO RESPONSE: array (
+  'wcpay_fraud_ruleset_id' => 495060,
+  'wcpay_account_id' => 1636671,
+  'ruleset_config' => 
+  array (
+  ),
+  'created' => '2024-05-11 02:19:28',
+)
+2024-05-17T09:10:15+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-05-17T09:10:15+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=0&currency_from=usd
+2024-05-17T09:10:15+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.6.0',
+)
+2024-05-17T09:10:15+00:00 INFO RESPONSE: array (
+  'AED' => 3.673010000000000108144604382687248289585113525390625,
+  'AFN' => 71.8750289999999978363121044822037220001220703125,
+  'ALL' => 92.3936680000000052359609981067478656768798828125,
+  'AMD' => 387.83011800000002722299541346728801727294921875,
+  'ANG' => 1.8037959999999999549658014075248502194881439208984375,
+  'AOA' => 837.5,
+  'ARS' => 886.258199999999987994669936597347259521484375,
+  'AUD' => 1.498833999999999999630517777404747903347015380859375,
+  'AWG' => 1.8024999999999999911182158029987476766109466552734375,
+  'AZN' => 1.6999999999999999555910790149937383830547332763671875,
+  'BAM' => 1.80038199999999992684251992614008486270904541015625,
+  'BBD' => 2,
+  'BDT' => 117.19333299999999553620000369846820831298828125,
+  'BGN' => 1.801204999999999945003992252168245613574981689453125,
+  'BHD' => 0.376914000000000026791013851834577508270740509033203125,
+  'BIF' => 2871.12405900000021574669517576694488525390625,
+  'BMD' => 1,
+  'BND' => 1.3454479999999999773052650198224000632762908935546875,
+  'BOB' => 6.91613699999999997913846527808345854282379150390625,
+  'BRL' => 5.1303000000000000824229573481716215610504150390625,
+  'BSD' => 1,
+  'BTC' => 1.5000000000000000380012861456169304119612206704914569854736328125E-5,
+  'BTN' => 83.569165999999995619873516261577606201171875,
+  'BWP' => 13.517054999999999154169927351176738739013671875,
+  'BYN' => 3.274677000000000059998228607582859694957733154296875,
+  'BZD' => 2.016980000000000217141860048286616802215576171875,
+  'CAD' => 1.362095000000000055706550483591854572296142578125,
+  'CDF' => 2789.78438099999993937672115862369537353515625,
+  'CHF' => 0.906895000000000006679101716144941747188568115234375,
+  'CLF' => 0.032564000000000002665867526729925884865224361419677734375,
+  'CLP' => 898.529999999999972715158946812152862548828125,
+  'CNH' => 7.22670299999999965478991725831292569637298583984375,
+  'CNY' => 7.2217999999999999971578290569595992565155029296875,
+  'COP' => 3826.03534499999977924744598567485809326171875,
+  'CRC' => 512.2754979999999704887159168720245361328125,
+  'CUC' => 1,
+  'CUP' => 25.75,
+  'CVE' => 101.50511299999999437204678542912006378173828125,
+  'CZK' => 22.75019999999999953388396534137427806854248046875,
+  'DJF' => 178.1878179999999929350451566278934478759765625,
+  'DKK' => 6.8692299999999999471356204594485461711883544921875,
+  'DOP' => 58.61018399999999672900230507366359233856201171875,
+  'DZD' => 134.56483600000001388252712786197662353515625,
+  'EGP' => 46.9131000000000000227373675443232059478759765625,
+  'ERN' => 15,
+  'ETB' => 57.280000000000001136868377216160297393798828125,
+  'EUR' => 0.92072100000000001163158458439284004271030426025390625,
+  'FJD' => 2.2317499999999999005240169935859739780426025390625,
+  'FKP' => 0.78982699999999994577848383414675481617450714111328125,
+  'GBP' => 0.78982699999999994577848383414675481617450714111328125,
+  'GEL' => 2.75,
+  'GGP' => 0.78982699999999994577848383414675481617450714111328125,
+  'GHS' => 14.2925529999999998409521140274591743946075439453125,
+  'GIP' => 0.78982699999999994577848383414675481617450714111328125,
+  'GMD' => 67.775000000000005684341886080801486968994140625,
+  'GNF' => 8603.29550899999958346597850322723388671875,
+  'GTQ' => 7.7750620000000001397211235598661005496978759765625,
+  'GYD' => 209.509335999999990463038557209074497222900390625,
+  'HKD' => 7.80004499999999989512389220180921256542205810546875,
+  'HNL' => 24.737418000000001683247319306246936321258544921875,
+  'HRK' => 6.93746599999999968844122122391127049922943115234375,
+  'HTG' => 132.758945000000011305019143037497997283935546875,
+  'HUF' => 356.69806999999997287886799313127994537353515625,
+  'IDR' => 15968.1598589999994146637618541717529296875,
+  'ILS' => 3.693865000000000176072489921352826058864593505859375,
+  'IMP' => 0.78982699999999994577848383414675481617450714111328125,
+  'INR' => 83.471507000000002562956069596111774444580078125,
+  'IQD' => 1310,
+  'IRR' => 42075,
+  'ISK' => 138.3799999999999954525264911353588104248046875,
+  'JEP' => 0.78982699999999994577848383414675481617450714111328125,
+  'JMD' => 156.40784300000001394437276758253574371337890625,
+  'JOD' => 0.70889999999999997459809719657641835510730743408203125,
+  'JPY' => 155.803500000000013869794202037155628204345703125,
+  'KES' => 130.6100000000000136424205265939235687255859375,
+  'KGS' => 88.262100000000003774403012357652187347412109375,
+  'KHR' => 4080.71210000000019135768525302410125732421875,
+  'KMF' => 452.7251800000000230284058488905429840087890625,
+  'KPW' => 900,
+  'KRW' => 1354.96677399999998669954948127269744873046875,
+  'KWD' => 0.30721100000000001184474740512087009847164154052734375,
+  'KYD' => 0.8340929999999999733262256995658390223979949951171875,
+  'KZT' => 443.30202600000001211810740642249584197998046875,
+  'LAK' => 21341.112668000001576729118824005126953125,
+  'LBP' => 89605.683634000000893138349056243896484375,
+  'LKR' => 301.004181000000016865669749677181243896484375,
+  'LRD' => 193.499966999999998051862348802387714385986328125,
+  'LSL' => 18.2349999999999994315658113919198513031005859375,
+  'LYD' => 4.839999999999999857891452847979962825775146484375,
+  'MAD' => 9.955999999999999516830939683131873607635498046875,
+  'MDL' => 17.699208999999999747387846582569181919097900390625,
+  'MGA' => 4442.5,
+  'MKD' => 56.67056099999999929650584817864000797271728515625,
+  'MMK' => 2101.32608699999991586082614958286285400390625,
+  'MNT' => 3450,
+  'MOP' => 8.0460820000000001783746483852155506610870361328125,
+  'MUR' => 46.030000999999998612111085094511508941650390625,
+  'MVR' => 15.46000000000000085265128291212022304534912109375,
+  'MWK' => 1733.5,
+  'MXN' => 16.707100000000000505906427861191332340240478515625,
+  'MYR' => 4.6835000000000004405364961712621152400970458984375,
+  'MZN' => 63.899990999999999985448084771633148193359375,
+  'NAD' => 18.2349999999999994315658113919198513031005859375,
+  'NGN' => 1513.97600000000011277734301984310150146484375,
+  'NIO' => 36.75,
+  'NOK' => 10.7111800000000005894662535865791141986846923828125,
+  'NPR' => 133.707076000000000703948899172246456146240234375,
+  'NZD' => 1.6341200000000000169819713846663944423198699951171875,
+  'OMR' => 0.38489600000000001589484099895344115793704986572265625,
+  'PAB' => 1,
+  'PEN' => 3.7203590000000001936086846399120986461639404296875,
+  'PGK' => 3.880500000000000060396132539608515799045562744140625,
+  'PHP' => 57.6720040000000011559677659533917903900146484375,
+  'PKR' => 278.5,
+  'PLN' => 3.927493999999999818584228705731220543384552001953125,
+  'PYG' => 7509.11256599999978789128363132476806640625,
+  'QAR' => 3.641500000000000181188397618825547397136688232421875,
+  'RON' => 4.58040000000000002700062395888380706310272216796875,
+  'RSD' => 107.83899999999999863575794734060764312744140625,
+  'RUB' => 90.890004000000004680259735323488712310791015625,
+  'RWF' => 1296,
+  'SAR' => 3.750431999999999987949195201508700847625732421875,
+  'SBD' => 8.47594600000000042427927837707102298736572265625,
+  'SCR' => 13.5876099999999997436361809377558529376983642578125,
+  'SDG' => 601,
+  'SEK' => 10.7228949999999993991650626412592828273773193359375,
+  'SGD' => 1.3468009999999999148911911106551997363567352294921875,
+  'SHP' => 0.78982699999999994577848383414675481617450714111328125,
+  'SLL' => 20969.5,
+  'SOS' => 571,
+  'SRD' => 32.1700000000000017053025658242404460906982421875,
+  'SSP' => 130.259999999999990905052982270717620849609375,
+  'STD' => 22281.79999999999927240423858165740966796875,
+  'SVC' => 8.7570080000000007913740773801691830158233642578125,
+  'SYP' => 2512.53000000000020008883439004421234130859375,
+  'SZL' => 18.2300520000000005893525667488574981689453125,
+  'THB' => 36.2409999999999996589394868351519107818603515625,
+  'TJS' => 10.8639179999999999637338987668044865131378173828125,
+  'TMT' => 3.5,
+  'TND' => 3.103000000000000202504679691628552973270416259765625,
+  'TOP' => 2.358712000000000141852751767146401107311248779296875,
+  'TRY' => 32.2567480000000017525962903164327144622802734375,
+  'TTD' => 6.796276999999999901547198533080518245697021484375,
+  'TWD' => 32.19950299999999998590283212251961231231689453125,
+  'TZS' => 2590,
+  'UAH' => 39.3788669999999996207407093606889247894287109375,
+  'UGX' => 3763.20577199999979711719788610935211181640625,
+  'USD' => 1,
+  'UYU' => 38.69097099999999755937096779234707355499267578125,
+  'UZS' => 12720,
+  'VND' => 25448.530759000001125968992710113525390625,
+  'VUV' => 118.7219999999999942019712761975824832916259765625,
+  'WST' => 2.79999999999999982236431605997495353221893310546875,
+  'XAF' => 603.953576999999995678081177175045013427734375,
+  'XAG' => 0.033723999999999997034816345831131911836564540863037109375,
+  'XAU' => 0.00042000000000000001741662369880714322789572179317474365234375,
+  'XCD' => 2.702550000000000007815970093361102044582366943359375,
+  'XDR' => 0.757781000000000037886138670728541910648345947265625,
+  'XOF' => 603.953576999999995678081177175045013427734375,
+  'XPD' => 0.00101300000000000001154631945610162802040576934814453125,
+  'XPF' => 109.871275999999994610334397293627262115478515625,
+  'XPT' => 0.0009380000000000000316691117774325903155840933322906494140625,
+  'YER' => 249.8997689999999920473783276975154876708984375,
+  'ZAR' => 18.197030000000001592752596479840576648712158203125,
+  'ZMW' => 25.291059000000000622776497039012610912322998046875,
+  'ZWL' => 322,
+)
